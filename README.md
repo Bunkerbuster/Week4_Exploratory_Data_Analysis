@@ -33,16 +33,16 @@ tasked with setting national ambient air quality standards for fine PM and for t
 [DATA SAMPLE]
 
 <ul>
-	<li><b style="red" />fips:</b> A five-digit number (represented as a string) indicating the U.S. county</li>
-	<li><b style="red" />SCC:</b> The name of the source as indicated by a digit string (see source code classification table)</li>
-	<li><b style="red" />Pollutant:</b> A string indicating the pollutant</li>
-	<li><b style="red" />Emissions:</b> Amount of PM2.5 emitted, in tons</li>
-	<li><b style="red" />type:</b> The type of source (point, non-point, on-road, or non-road)</li>
-	<li><b style="red" />year:</b> The year of emissions recorded</li>
+	<li><b style="color:red" />fips:</b> A five-digit number (represented as a string) indicating the U.S. county</li>
+	<li><b style="color:red" />SCC:</b> The name of the source as indicated by a digit string (see source code classification table)</li>
+	<li><b style="color:red" />Pollutant:</b> A string indicating the pollutant</li>
+	<li><b style="color:red" />Emissions:</b> Amount of PM2.5 emitted, in tons</li>
+	<li><b style="color:red" />type:</b> The type of source (point, non-point, on-road, or non-road)</li>
+	<li><b style="color:red" />year:</b> The year of emissions recorded</li>
 </ul>
 
-<p>Source Classification Code Table (<b style="red" />Source_Classification_Code.rds</b>): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.</p>
+<p>Source Classification Code Table (<b style="color:red" />Source_Classification_Code.rds</b>): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.</p>
 
-<p>You can read each of the two files using the <b style="red" />readRDS()</b> function in R. For example, reading in each file can be done with the following code:</p>
+<p>You can read each of the two files using the <b style="color:red" />readRDS()</b> function in R. For example, reading in each file can be done with the following code:</p>
 
 [DATA SAMPLE]
